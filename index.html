@@ -1,50 +1,236 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+		<meta property="og:title" content="" />
+		<meta property="og:type" content="" />
+		<meta property="og:url" content="" />
+		<meta property="og:image" content="" />
 
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="apple-touch-icon" href="icon.png" />
-    <!-- Place favicon.ico in the root directory -->
+		<link rel="manifest" href="site.webmanifest" />
+		<link rel="apple-touch-icon" href="icon.png" />
+		<!-- Place favicon.ico in the root directory -->
 
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- icofont -->
-    <link rel="stylesheet" href="assets/css/icofont.min.css" />
-    <link rel="stylesheet" href="assets/css/normalize.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<!-- icofont -->
+		<link rel="stylesheet" href="assets/css/icofont.min.css" />
+		<link rel="stylesheet" href="assets/css/normalize.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-  <body>
-    <!-- Scripts -->
-    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="assets/js/jquery-3.6.1.min.js"></script>
-    <!-- boostrap js -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
+	<body>
+		<!-- Topbar -->
+		<div class="topbar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<i class="icofont-envelope"></i>
+						<span>dummy-text</span>
+					</div>
+					<div class="col">
+						<i class="icofont-phone"></i>
+						<span>dummy-text</span>
+					</div>
+					<div class="col">
+						<i class="icofont-location-pin"></i>
+						<span>dummy-text</span>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-      window.ga = function () {
-        ga.q.push(arguments);
-      };
-      ga.q = [];
-      ga.l = +new Date();
-      ga("create", "UA-XXXXX-Y", "auto");
-      ga("set", "anonymizeIp", true);
-      ga("set", "transport", "beacon");
-      ga("send", "pageview");
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
-  </body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-auto">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+						<a class="nav-link" href="#">Recent Works</a>
+						<a class="nav-link" href="#">Company Profile</a>
+						<a class="nav-link" href="#">Contact Us</a>
+						<a class="nav-link" href="#">About Us</a>
+						<a class="nav-link" href="#">Refund Policy</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Book A Service -->
+		<div class="book-a-service">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<h3>Lorem ipsum dolor sit amet.</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum blanditiis autem sapiente beatae aspernatur, ea illo nesciunt deserunt ex, ipsum quisquam quidem dolores nulla obcaecati?</p>
+					</div>
+					<div class="col-lg-6">
+						<div class="book-a-service-form">
+							<form>
+								<div class="row g-3">
+									<div class="col-md-6">
+										<label for="inputName" class="form-label">Name</label>
+										<input type="text" class="form-control" id="inputName" />
+									</div>
+									<div class="col-md-6">
+										<label for="inputEmail" class="form-label">Email</label>
+										<input type="text" class="form-control" id="inputEmail" />
+									</div>
+								</div>
+								<div class="row g-3">
+									<div class="col-md-6">
+										<label for="inputSubject" class="form-label">Subject</label>
+										<input type="text" class="form-control" id="inputSubject" />
+									</div>
+									<div class="col-md-6">
+										<label for="inputNumber" class="form-label">Phone Number</label>
+										<input type="text" class="form-control" id="inputNumber" />
+									</div>
+									<div class="col-12">
+										<textarea name="inputMessage" class="form-control" id="inputMessage" rows="5"></textarea>
+									</div>
+									<div class="col-12">
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Services -->
+		<section class="services">
+			<div class="container">
+				<h1 class="">Services We Serve</h1>
+				<div class="row cards">
+					<div class="col-md-3 card">
+						<i class="icofont-help-robot"></i>
+						<h4>Service #0</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus.</p>
+					</div>
+					<div class="col-md-3 card">
+						<i class="icofont-help-robot"></i>
+						<h4>Service #0</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus.</p>
+					</div>
+					<div class="col-md-3 card">
+						<i class="icofont-help-robot"></i>
+						<h4>Service #0</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus.</p>
+					</div>
+					<div class="col-md-3 card">
+						<i class="icofont-help-robot"></i>
+						<h4>Service #0</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus.</p>
+					</div>
+				</div>
+				<div class="row cards">
+					<div class="col-md-3 card">
+						<i class="icofont-help-robot"></i>
+						<h4>Service #0</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus.</p>
+					</div>
+					<div class="col-md-3 card">
+						<i class="icofont-help-robot"></i>
+						<h4>Service #0</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus.</p>
+					</div>
+					<div class="col-md-3 card">
+						<i class="icofont-help-robot"></i>
+						<h4>Service #0</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus.</p>
+					</div>
+					<div class="col-md-3 card">
+						<i class="icofont-help-robot"></i>
+						<h4>Service #0</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Recent Projects -->
+		<section class="recent-projects">
+			<div class="container">
+				<h1 class="">Our Team Recently Did</h1>
+				<div class="rows d-flex">
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="https://thewharfkitchenbar.co.nz/wp-content/uploads/2016/10/500x300-2.png" class="card-img-top" alt="...">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="https://thewharfkitchenbar.co.nz/wp-content/uploads/2016/10/500x300-2.png" class="card-img-top" alt="...">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="https://thewharfkitchenbar.co.nz/wp-content/uploads/2016/10/500x300-2.png" class="card-img-top" alt="...">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="https://thewharfkitchenbar.co.nz/wp-content/uploads/2016/10/500x300-2.png" class="card-img-top" alt="...">
+						</div>
+					</div>
+				</div>
+				<div class="rows d-flex">
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="https://thewharfkitchenbar.co.nz/wp-content/uploads/2016/10/500x300-2.png" class="card-img-top" alt="...">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="https://thewharfkitchenbar.co.nz/wp-content/uploads/2016/10/500x300-2.png" class="card-img-top" alt="...">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="https://thewharfkitchenbar.co.nz/wp-content/uploads/2016/10/500x300-2.png" class="card-img-top" alt="...">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card" style="width: 18rem;">
+							<img src="https://thewharfkitchenbar.co.nz/wp-content/uploads/2016/10/500x300-2.png" class="card-img-top" alt="...">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Scripts -->
+		<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+		<script src="assets/js/jquery-3.6.1.min.js"></script>
+		<!-- Bootstrap js -->
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/plugins.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+		<script>
+			window.ga = function () {
+				ga.q.push(arguments);
+			};
+			ga.q = [];
+			ga.l = +new Date();
+			ga("create", "UA-XXXXX-Y", "auto");
+			ga("set", "anonymizeIp", true);
+			ga("set", "transport", "beacon");
+			ga("send", "pageview");
+		</script>
+		<script src="https://www.google-analytics.com/analytics.js" async></script>
+	</body>
 </html>
